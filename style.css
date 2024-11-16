@@ -1,0 +1,92 @@
+/* Reset stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Styl tła strony */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Nagłówek */
+header {
+    background-color: #ff66b2;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Kontener dla nagłówka */
+.header-content {
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* Tekst w nagłówku */
+.header-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-text p {
+    font-size: 16px;
+}
+
+/* Logo */
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Główna zawartość */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #ff66b2;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #cccccc;
+}
+
+article p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Stopka */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Linki */
+a {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
